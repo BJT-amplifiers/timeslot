@@ -1,4 +1,4 @@
- <script type="text/javascript"> 
+
    var table = document.getElementById("tableID");
     if (table != null) {
         for (var i = 1; i < table.rows.length; i++) {
@@ -12,4 +12,3 @@
     function tableText(tableCell) {
         alert(tableCell.innerHTML);
     }
-</script>
